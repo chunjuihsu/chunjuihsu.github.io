@@ -1994,7 +1994,7 @@ input, select, textarea {
 		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
-		text-align: center;
+		text-align: justify;
 	}
 
 		.wrapper.style1 {
@@ -2202,7 +2202,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 5em 0 5em 0;
-				text-align: center;
+				text-align: justify;
 			}
 
 				.wrapper.style4 .row-special {
@@ -2387,7 +2387,7 @@ input, select, textarea {
 
 			.wrapper {
 				padding: 3em 0;
-				text-align: center;
+				text-align: justify;
 			}
 
 		/* Nav */
