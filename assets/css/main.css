@@ -220,6 +220,7 @@ input, select, textarea {
 	}
 
 		footer > p {
+			text-align: justify
 			font-size: 1.25em;
 		}
 
