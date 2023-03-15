@@ -1,3 +1,128 @@
 baseURL = "https://chunjuihsu.github.io/"
 languageCode = 'en-us'
-title = "CJ's blog"
+title = "CJ Hsu's Blog"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "CJ Hsu's Blog"
+description = "Welcome to CJ Hsu's blog"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "CJ Hsu"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+  [params.assets]
+  favicon = "/favicon/favicon.ico"
+  favicon16x16 = "/favicon/favicon-16x16.png"
+  favicon32x32 = "/favicon/favicon-32x32.png"
+  apple_touch_icon = "/favicon/apple-touch-icon.png"
+  safari_pinned_tab = "/favicon/safari-pinned-tab.svg"
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "CJ Hsu's Blog"
+  subtitle = "Hi 👋 My name is CJ Hsu. I write about tech and data 📈👨‍💻"
+  imageUrl = "https://media.licdn.com/dms/image/C5603AQG31z2EQQMHIQ/profile-displayphoto-shrink_800_800/0/1643701856886?e=1684368000&v=beta&t=SZZZgrClKdzUBWfBtFk7yi6HVRVEMudvbBp729lac0g"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Data"
+    url = "categories/data"
+
+    [[params.profileMode.buttons]]
+    name = "Tech"
+    url = "categories/tech"
+
+    [[params.profileMode.buttons]]
+    name = "How-to"
+    url = "tags/how-to"
+
+    [[params.profileMode.buttons]]
+    name = "Analysis"
+    url = "tags/analysis"
+
+    [[params.profileMode.buttons]]
+    name = "Python"
+    url = "tags/python"
+
+  [params.homeInfoParams]
+  Title = "CJ Hsu's Blog"
+  Content = "Hi 👋 My name is CJ Hsu. I write about data and tech 📈👨‍💻"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/cj-hsu"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/chunjuihsu"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifies = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 30
+
+[markup.highlight]
+noClasses = false
