@@ -72,14 +72,6 @@ tocopen = false
     name = "How-to"
     url = "tags/how-to"
 
-    [[params.profileMode.buttons]]
-    name = "Analysis"
-    url = "tags/analysis"
-
-    [[params.profileMode.buttons]]
-    name = "Python"
-    url = "tags/python"
-
   [params.homeInfoParams]
   Title = "CJ Hsu's Blog"
   Content = "Hi 👋 My name is CJ Hsu. I write about data and tech 📈👨‍💻"
