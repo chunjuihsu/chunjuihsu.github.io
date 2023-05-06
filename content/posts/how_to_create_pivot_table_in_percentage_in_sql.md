@@ -3,7 +3,7 @@ author: "CJ Hsu"
 title: "How to Create Pivot Table in Percentage in SQL"
 date: "2023-05-05"
 summary: "This article provides code examples for generating pivot tables with PostgreSQL."
-description: "This article explores how to generate pivot tables with PostgreSQL using sample transaction data and provides two possible ways to represent the percentage of transactions for each person at each date."
+description: "This article explores how to generate pivot tables with PostgreSQL."
 categories: ["Tech", "Data"]
 tags: ["How-to", "SQL", "PostgreSQL", "conditional aggregation"]
 ---
