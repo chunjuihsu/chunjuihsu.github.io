@@ -55,10 +55,10 @@ tocopen = false
   enabled = true
   title = "CJ Hsu's Blog"
   subtitle = "Hi 👋 My name is CJ Hsu. I write about tech and data 📈👨‍💻"
-  imageUrl = "https://media.licdn.com/dms/image/C5603AQG31z2EQQMHIQ/profile-displayphoto-shrink_800_800/0/1643701856886?e=1684368000&v=beta&t=SZZZgrClKdzUBWfBtFk7yi6HVRVEMudvbBp729lac0g"
+  imageUrl = "/website/myprofile.png"
   imageWidth = 120
   imageHeight = 120
-  imageTitle = "my image"
+  imageTitle = "my profile"
 
     [[params.profileMode.buttons]]
     name = "Data"
